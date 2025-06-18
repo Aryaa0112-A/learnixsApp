@@ -22,8 +22,7 @@ Sistem pembelajaran online berbasis CodeIgniter 3 untuk sekolah/madrasah dengan 
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/username/BismillahSidang.git
-   cd BismillahSidang
+   [git clone https://github.com/Aryaa0112-A/learnixsApp.git]
    ```
 
 2. **Konfigurasi Database**
@@ -44,7 +43,7 @@ Sistem pembelajaran online berbasis CodeIgniter 3 untuk sekolah/madrasah dengan 
    ```
 
 5. **Akses Aplikasi**
-   - Buka browser dan akses `http://localhost/BismillahSidang`
+   - Buka browser dan akses `http://localhost/`
 
 ## 👥 Akun Default
 
@@ -63,7 +62,7 @@ Sistem pembelajaran online berbasis CodeIgniter 3 untuk sekolah/madrasah dengan 
 ## 📁 Struktur Project
 
 ```
-BismillahSidang/
+Learnixs/
 ├── application/
 │   ├── controllers/     # Controller aplikasi
 │   ├── models/         # Model database
@@ -136,4 +135,4 @@ Dikembangkan dengan ❤️ untuk kemajuan pendidikan Indonesia.
 
 ---
 
-**BismillahSidang** - Sistem Pembelajaran Online yang Terpercaya 
+**learnix's** - Sistem Pembelajaran Online yang Terpercaya 
