@@ -1,0 +1,2516 @@
+@media (max-width:1619px){
+	/* Main Menu Area css
+	============================================================================================ */
+   .header_area .navbar .search {
+		margin-left: 40px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	.testimonials_area .owl-prev, .testimonials_area .owl-next {
+		right: 15px;
+	}
+}
+@media (max-width:1300px){
+	.testimonials_area .owl-prev, .testimonials_area .owl-next {
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 25px;
+		top: auto;
+	}
+	.testimonials_area .owl-prev{
+		transform: rotate(90deg);
+	}
+	.testimonials_area .owl-next{
+		transform: rotate(90deg);
+		margin-left: -40px;
+	}
+}
+@media (max-width:1199px){
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar .nav .nav-item {
+		margin-right: 28px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	/* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area {
+		min-height: 700px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 700px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	
+	/* About Page Responsive css
+	============================================================================================ */
+	.about-image-container {
+		margin-bottom: 30px;
+	}
+	
+	.vision-box, .mission-box {
+		margin-bottom: 20px;
+	}
+	
+	.facility-content {
+		margin-bottom: 30px;
+	}
+	
+	.cta-content {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+	.cta-button {
+		justify-content: center;
+	}
+	/* End About Page css
+	============================================================================================ */
+	
+	/* Headmaster Section Responsive Styles */
+	.headmaster-section {
+		padding: 70px 0;
+	}
+	
+	.vision-message {
+		padding: 35px;
+	}
+	
+	.message-title {
+		font-size: 26px;
+	}
+	
+	.highlight-text {
+		font-size: 16px;
+	}
+	
+	/* Brand Logo Responsive Styles */
+	/* .brand-container img {
+		height: 50px;
+	}
+	
+	.brand-title {
+		font-size: 17px;
+	}
+	
+	.brand-tagline {
+		font-size: 11px;
+	}
+	*/
+}
+
+@media (max-width:991px){
+	/* Main Menu Area css
+	============================================================================================ */
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+    }
+	.header_area .navbar {
+		background: #fff;
+	}
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+		opacity: 1;
+	}
+	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+		opacity: 0;
+	}
+	.navbar-toggler[aria-expanded="true"] span:first-child {
+		transform: rotate(-45deg);
+		position: relative;
+		top: 7.5px;
+	}
+	.navbar-toggler[aria-expanded="true"] span:last-child {
+		transform: rotate(45deg);
+		bottom: 6px;
+		position: relative;
+	}
+	.navbar-toggler span{
+		display: block;
+		width: 25px;
+		height: 3px;
+		background: #0072bc;
+		margin: auto;
+		margin-bottom: 4px;
+		transition: all 400ms linear;
+		cursor: pointer;
+	}
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav{
+        padding: 0px 0px;
+    }
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 117px;
+	}
+    .header_top .nav{
+        padding: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link{
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+    }
+	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+	}
+    .header_area .navbar .search{
+        margin-left: 0px;
+    }
+	.header_area .navbar-collapse{
+		max-height: 340px;
+		overflow-y: scroll;
+	}
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 116px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	/* Blog page Area css
+	============================================================================================ */
+	.categories_post img{
+        width: 100%;
+    }
+	.categories_post {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	.blog_categorie_area .col-lg-4{
+        margin-top: 30px;
+    }
+    .blog_area{
+        padding-bottom: 80px;
+    }
+    .single-post-area .blog_right_sidebar{
+        margin-top: 30px;
+    }
+	/* End Blog page Area css
+	============================================================================================ */
+	
+	/* Contact Page Area css
+	============================================================================================ */
+	.contact_info{
+		margin-bottom: 50px;
+	}
+
+    /* Contact Page Responsive css - New Luxury Design */
+    .contact_section {
+        padding: 60px 0;
+    }
+
+    .contact_info_box {
+        margin-bottom: 30px;
+    }
+
+    .map_container {
+        margin-bottom: 30px;
+    }
+
+    .contact_form_container {
+        height: auto;
+    }
+
+    .social_media_container {
+        padding: 20px 0;
+    }
+
+    .social_link {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+	/* End Contact page Area css
+	============================================================================================ */
+	.home_banner_area .donation_inner{
+		margin-bottom: -30px;
+	}
+	.home_banner_area .dontation_item{
+		max-width: 350px;
+		margin: auto;
+	}
+	/* Footer Area css
+	============================================================================================ */
+	.footer-area .col-sm-6{
+		margin-bottom: 30px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+	.finance_item{
+		margin-bottom: 30px;
+	}
+	.finance_inner{
+		margin-bottom: -30px;
+	}
+	.team_item{
+		max-width: 263px;
+		margin: 0px auto 30px;
+	}
+	.packages_text{
+		margin-bottom: 50px;
+	}
+	.packages_item{
+		max-width: 360px;
+		margin: 0px auto 30px;
+	}
+	.packages_inner{
+		margin-bottom: -30px;
+	}
+	.l_blog_item img{
+		width: 100%;
+	}
+	.news_widget {
+		padding-left: 0px;
+	}
+	.video_area{
+		margin-top: 40px;
+		float: none;
+		display: block;
+	}
+	.video_area > img{
+		width: 100%;
+	}
+	.c_details_list{
+		margin-top: 30px;
+	}
+	
+	/* About Page Responsive css
+	============================================================================================ */
+	.vision-mission-wrapper {
+		padding: 30px 20px;
+	}
+	
+	.facilities-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.program-card {
+		margin-bottom: 20px;
+	}
+	
+	.extracurricular-list {
+		flex-wrap: wrap;
+	}
+	/* End About Page css
+	============================================================================================ */
+	
+	/* Headmaster Section Responsive Styles */
+	.headmaster-section {
+		padding: 60px 0;
+	}
+	
+	.vision-message {
+		padding: 30px;
+		margin-top: 30px;
+	}
+	
+	.message-title {
+		font-size: 24px;
+		padding-bottom: 12px;
+	}
+	
+	.message-title:after {
+		width: 70px;
+	}
+	
+	.highlight-text {
+		font-size: 15px;
+		line-height: 1.6;
+	}
+	
+	.message-content p {
+		font-size: 14px;
+		line-height: 1.7;
+	}
+	
+	.author-info h4 {
+		font-size: 17px;
+	}
+	
+	/* Brand Logo Responsive Styles */
+	/* .brand-container img {
+		height: 45px;
+		margin-right: 12px;
+	}
+	
+	.brand-title {
+		font-size: 16px;
+	}
+	
+	.brand-tagline {
+		font-size: 10px;
+	}
+	*/
+}
+@media (max-width:767px){
+	.home_banner_area {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 0px;
+	}
+	/* Blog Page Area css
+	============================================================================================ */
+    .blog_banner .banner_inner .blog_b_text h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.blog_info.text-right{
+		text-align: left !important;
+		margin-bottom: 10px;
+	}
+	/* End Blog Page Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 30px;
+	}
+	.home_banner_area .banner_inner .banner_content p br {
+		display: none;
+	}
+	.home_banner_area .banner_inner .banner_content h3 span {
+		line-height: 45px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	/* Footer Area css
+	============================================================================================ */
+	.footer-bottom{
+		text-align: center;
+	}
+	.footer-bottom .footer-social {
+		text-align: center;
+		margin-top: 15px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+	/* Courses classes removed */
+	
+	/* Contact Page Responsive css - New Luxury Design */
+    .contact_section {
+        padding: 50px 0;
+    }
+
+    .contact_section .main_title h2 {
+        font-size: 28px;
+    }
+
+    .contact_section .main_title .subtitle {
+        font-size: 14px;
+    }
+
+    .contact_details_row {
+        margin-bottom: 30px;
+    }
+
+    .form_row.two_column {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .map_heading h4, .form_heading h4 {
+        font-size: 16px;
+    }
+
+    .form_heading p {
+        font-size: 13px;
+    }
+
+    .btn_contact {
+        padding: 10px 25px;
+        font-size: 14px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social_media_container h4 {
+        font-size: 18px;
+    }
+
+    .social_icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+	
+	/* About Page Responsive css
+	============================================================================================ */
+	.about_area {
+		padding: 60px 0;
+	}
+	
+	.about_area .main_title {
+		margin-bottom: 40px;
+	}
+	
+	.about-intro {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+	
+	.section-heading h3 {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	
+	.about-content h3 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	
+	.about-content p {
+		font-size: 14px;
+	}
+	
+	.vision-box, .mission-box {
+		padding: 20px;
+	}
+	
+	.vision-icon {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.vision-icon i {
+		font-size: 24px;
+	}
+	
+	.program-card {
+		padding: 20px;
+	}
+	
+	.program-card h4 {
+		font-size: 16px;
+	}
+	
+	.facility-content {
+		padding: 20px;
+	}
+	
+	.facility-content h3 {
+		font-size: 18px;
+	}
+	
+	.facilities-grid {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+	
+	.partnership-content {
+		padding: 25px;
+	}
+	
+	.cta-box {
+		padding: 30px 20px;
+	}
+	
+	.cta-content h3 {
+		font-size: 22px;
+	}
+	
+	.cta-content p {
+		font-size: 14px;
+	}
+	/* End About Page css
+	============================================================================================ */
+	
+	/* Headmaster Section Responsive Styles */
+	.headmaster-section {
+		padding: 50px 0;
+	}
+	
+	.headmaster-portrait {
+		max-width: 300px;
+		margin: 0 auto 40px;
+	}
+	
+	.portrait-badge {
+		font-size: 12px;
+		padding: 8px 20px;
+	}
+	
+	.vision-message {
+		padding: 25px;
+		border-left-width: 3px;
+	}
+	
+	.message-title {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	
+	.highlight-text {
+		font-size: 15px;
+		padding-left: 12px;
+	}
+	
+	.message-footer {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	.action-link {
+		text-align: left;
+		margin-top: 15px;
+	}
+	
+	/* Brand Logo Responsive Styles */
+	/* .brand-container img {
+		height: 40px;
+		margin-right: 10px;
+	}
+	
+	.brand-title {
+		font-size: 15px;
+	}
+	
+	.brand-tagline {
+		font-size: 9px;
+	}
+	*/
+}
+@media (max-width:600px){
+	.builder_inner .builder_item {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+@media (max-width:575px){
+	.top_menu {
+		display: none;
+	}
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 71px;
+	}
+    /* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content h2 {
+		font-size: 28px;
+	}
+	.home_banner_area {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.blog_banner .banner_inner .blog_b_text {
+		margin-top: 0px;
+	}
+	.home_banner_area .banner_inner .banner_content img{
+		display: none;
+	}
+	.home_banner_area .banner_inner .banner_content h5 {
+		margin-top: 0px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.p_120 {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.main_title h2 {
+		font-size: 25px;
+	}
+	/* Elements Area css
+	============================================================================================ */
+	.sample-text-area {
+		padding: 70px 0 70px 0;
+	}
+	.generic-blockquote {
+		padding: 30px 15px 30px 30px;
+	}
+	/* End Elements Area css
+	============================================================================================ */
+	
+	/* Blog Page Area css
+	============================================================================================ */
+	.blog_details h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.blog_banner .banner_inner .blog_b_text h2 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	/* End Blog Page Area css
+	============================================================================================ */
+	/* Footer Area css
+	============================================================================================ */
+	.footer-area {
+		padding: 70px 0px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+	.pad_top {
+		padding-top: 70px;
+	}
+	.footer-bottom {
+		padding-top: 20px;
+	}
+	
+	/* Contact Page Responsive css - New Luxury Design */
+    .contact_section {
+        padding: 40px 0;
+    }
+
+    .contact_section .main_title {
+        margin-bottom: 30px;
+    }
+
+    .contact_section .main_title h2 {
+        font-size: 24px;
+    }
+
+    .contact_info_box {
+        padding: 20px 15px;
+    }
+
+    .contact_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact_icon i {
+        font-size: 22px;
+    }
+
+    .contact_info_content h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .map_box, .contact_form_container {
+        border-radius: 8px;
+    }
+
+    .map_heading, .form_heading {
+        padding: 15px;
+    }
+
+    .contact_form {
+        padding: 15px;
+    }
+
+    .form_row {
+        margin-bottom: 15px;
+    }
+
+    .form_control {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .form_action {
+        margin-top: 15px;
+    }
+
+    .social_link {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+	
+	/* About Page Responsive css
+	============================================================================================ */
+	.section-badge {
+		font-size: 10px;
+		padding: 4px 10px;
+	}
+	
+	.vision-mission-wrapper {
+		padding: 20px 15px;
+	}
+	
+	.mission-list li i {
+		font-size: 16px;
+	}
+	
+	.mission-list li {
+		font-size: 13px;
+		line-height: 1.5;
+	}
+	/* End About Page css
+	============================================================================================ */
+}
+
+@media (max-width:480px){
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar-collapse{
+		max-height: 250px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	
+	/* Home Banner Area css
+	============================================================================================ */
+    .home_banner_area .banner_inner .banner_content {
+		padding: 30px 15px;
+		margin-top: 0px;
+	}
+	.banner_content .white_btn {
+		display: block;
+	}
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 24px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.banner_area .banner_inner .banner_content h2 {
+		font-size: 32px;
+	}
+	.home_banner_area {
+		min-height: 400px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 400px;
+	}
+	/* Blog Page Area css
+	============================================================================================ */
+	.comments-area .thumb {
+		margin-right: 10px;
+	}
+	
+	/* End Blog Page Area css
+	============================================================================================ */
+	.video_area .popup-youtube img {
+		width: 15%;
+	}
+	.course_details_inner .nav.nav-tabs li {
+		margin-right: 15px;
+	}
+	
+	/* Contact Page Responsive css - New Luxury Design */
+    .contact_section {
+        padding: 30px 0;
+    }
+
+    .contact_details_row {
+        margin-bottom: 20px;
+    }
+
+    .map_frame iframe {
+        height: 300px;
+    }
+
+    .social_media_row {
+        margin-top: 10px;
+    }
+
+    .social_media_container {
+        padding: 15px 0;
+    }
+
+    .social_media_container h4 {
+        font-size: 16px;
+    }
+
+    .social_link {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+	
+	/* About Page Responsive css - Optimized for Mobile
+	============================================================================================ */
+	.about_area {
+		padding: 40px 0;
+	}
+	
+	.about_area .main_title h2 {
+		font-size: 22px !important;
+	}
+	
+	.about-intro {
+		font-size: 14px;
+		line-height: 1.5;
+		text-align: left;
+	}
+	
+	.about-content h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	
+	.about-content p {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	
+	.section-badge {
+		font-size: 10px;
+		padding: 3px 10px;
+		box-shadow: 0 2px 5px rgba(0, 114, 188, 0.15);
+		margin-bottom: 10px;
+	}
+	
+	.program-card {
+		padding: 15px;
+		margin-bottom: 15px;
+		border-top: 2px solid #0072bc;
+	}
+	
+	.program-card h4 {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	
+	.program-card p {
+		font-size: 13px;
+		line-height: 1.4;
+	}
+	
+	.program-icon {
+		width: 50px;
+		height: 50px;
+		border-radius: 8px;
+		margin-bottom: 15px;
+	}
+	
+	.program-icon i {
+		font-size: 20px;
+	}
+	
+	/* Fix untuk program ekstrakurikuler di mobile */
+	.program-card.extracurricular {
+		width: 100%;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.extracurricular-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-top: 10px;
+	}
+	
+	.extracurricular-list span {
+		font-size: 11px;
+		padding: 4px 6px;
+		flex: 0 0 auto;
+		white-space: nowrap;
+		display: inline-flex;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	
+	.col-md-8.col-sm-12 {
+		padding-left: 15px;
+		padding-right: 15px;
+		clear: both;
+		width: 100%;
+	}
+	
+	/* Optimasi animasi untuk mobile */
+	.program-card:hover,
+	.facility-content:hover,
+	.btn-cta:hover,
+	.facility-item:hover,
+	.vision-box:hover,
+	.mission-box:hover {
+		transform: none; /* Menghapus transformasi pada mobile untuk performa */
+	}
+	
+	.program-card:hover .program-icon {
+		transform: none;
+	}
+	
+	.vision-mission-wrapper {
+		padding: 15px 10px;
+	}
+	
+	.vision-box, .mission-box {
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.vision-icon {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.vision-icon i {
+		font-size: 20px;
+	}
+	
+	.mission-list li {
+		font-size: 13px;
+		margin-bottom: 8px;
+	}
+	
+	.facility-content {
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.facility-content h3 {
+		font-size: 17px;
+	}
+	
+	.feature-list li {
+		font-size: 13px;
+		margin-bottom: 8px;
+	}
+	
+	.facilities-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+	}
+	
+	.facility-item {
+		padding: 10px;
+	}
+	
+	.facility-item i {
+		font-size: 18px;
+	}
+	
+	.facility-item span {
+		font-size: 12px;
+	}
+	
+	.cta-box {
+		padding: 20px 15px;
+	}
+	
+	.cta-content h3 {
+		font-size: 18px;
+	}
+	
+	.cta-content p {
+		font-size: 13px;
+		line-height: 1.4;
+	}
+	
+	.btn-cta {
+		font-size: 13px;
+		padding: 8px 15px;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.partner-logos {
+		margin-top: 15px;
+	}
+	
+	/* Optimasi untuk transisi */
+	.about-content,
+	.vision-content,
+	.mission-content,
+	.program-card,
+	.facility-content,
+	.cta-box {
+		transition: none; /* Menghapus transisi pada mobile untuk performa lebih baik */
+	}
+
+    /* Contact Form optimasi untuk mobile */
+    .contact_info_box {
+        margin-bottom: 15px;
+        padding: 15px 10px;
+    }
+
+    .contact_icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact_icon i {
+        font-size: 20px;
+    }
+
+    .map_heading h4, .form_heading h4 {
+        font-size: 15px;
+    }
+
+    .map_heading h4 i, .form_heading h4 i {
+        font-size: 16px;
+    }
+
+    .form_control {
+        height: 40px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    textarea.form_control {
+        padding-top: 10px;
+    }
+
+    /* Memperbaiki transisi untuk kinerja mobile */
+    .contact_info_box:hover,
+    .btn_contact:hover,
+    .social_link:hover {
+        transform: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+	/* End About Page css
+	============================================================================================ */
+	
+	/* Headmaster Section Responsive Styles */
+	.headmaster-section {
+		padding: 40px 0;
+	}
+	
+	.headmaster-portrait {
+		max-width: 240px;
+	}
+	
+	.portrait-badge {
+		padding: 6px 15px;
+		font-size: 11px;
+		bottom: -12px;
+		right: 15px;
+	}
+	
+	.vision-message {
+		padding: 20px;
+		border-left-width: 2px;
+	}
+	
+	.message-badge {
+		font-size: 10px;
+		padding: 5px 12px;
+		margin-bottom: 10px;
+	}
+	
+	.message-title {
+		font-size: 20px;
+		padding-bottom: 10px;
+		margin-bottom: 15px;
+	}
+	
+	.message-title:after {
+		width: 60px;
+		height: 2px;
+	}
+	
+	.highlight-text {
+		font-size: 14px;
+		line-height: 1.5;
+		padding-left: 10px;
+		border-left-width: 2px;
+		margin-bottom: 15px;
+	}
+	
+	.message-content p {
+		font-size: 13px;
+		line-height: 1.6;
+		margin-bottom: 12px;
+	}
+	
+	.message-footer {
+		margin-top: 20px;
+		padding-top: 15px;
+	}
+	
+	.author-info h4 {
+		font-size: 16px;
+	}
+	
+	.author-info p {
+		font-size: 12px;
+	}
+	
+	.premium-btn {
+		padding: 8px 20px;
+		font-size: 13px;
+	}
+	
+	/* Brand Logo Responsive Styles */
+	/* .brand-container {
+		max-width: 200px;
+	}
+	
+	.brand-container img {
+		height: 38px;
+		margin-right: 8px;
+	}
+	
+	.brand-title {
+		font-size: 14px;
+		letter-spacing: 0.3px;
+	}
+	
+	.brand-tagline {
+		font-size: 8px;
+		letter-spacing: 0.1px;
+	}
+	*/
+}
+
+/* Operational Hours Responsive Styles
+============================================================================================ */
+@media (max-width: 991px) {
+    .operational_hours_container {
+        margin-bottom: 40px;
+    }
+    
+    .hours_heading {
+        padding: 20px 25px;
+    }
+    
+    .hours_heading h3 {
+        font-size: 20px;
+    }
+    
+    .hours_heading h3 i {
+        font-size: 22px;
+    }
+    
+    .hours_content {
+        padding: 25px;
+    }
+    
+    .hours_card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .operational_hours_row {
+        margin-bottom: 30px !important;
+    }
+    
+    .hours_heading {
+        padding: 18px 20px;
+    }
+    
+    .hours_heading h3 {
+        font-size: 18px;
+    }
+    
+    .hours_heading h3 i {
+        font-size: 20px;
+    }
+    
+    .hours_content {
+        padding: 20px 15px;
+    }
+    
+    .hours_card {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .day, .time {
+        font-size: 15px;
+    }
+    
+    .day i, .time i {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .operational_hours_row {
+        margin-bottom: 25px !important;
+    }
+    
+    .operational_hours_container {
+        border-radius: 10px;
+    }
+    
+    .hours_heading {
+        padding: 15px;
+    }
+    
+    .hours_heading h3 {
+        font-size: 16px;
+    }
+    
+    .hours_heading h3 i {
+        font-size: 18px;
+    }
+    
+    .hours_divider {
+        height: 2px;
+        width: 60px;
+        margin-top: 8px;
+    }
+    
+    .hours_content {
+        padding: 15px 10px;
+    }
+    
+    .hours_card {
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    .hours_badge {
+        padding: 5px 12px;
+        font-size: 10px;
+        top: -10px;
+        left: 15px;
+    }
+    
+    .day_time {
+        margin-top: 12px;
+        gap: 10px;
+    }
+    
+    .day, .time {
+        font-size: 13px;
+        gap: 8px;
+    }
+    
+    .day i, .time i {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+    }
+    
+    /* Menghapus animasi dan transformasi untuk performa pada mobile */
+    .operational_hours_container:hover,
+    .hours_card:hover {
+        transform: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .hours_card:hover .day i, 
+    .hours_card:hover .time i {
+        background: #f0f7ff;
+        color: #0072bc;
+    }
+}
+/* End Operational Hours Responsive Styles
+============================================================================================ */
+
+/* Premium Features Responsive Styles
+============================================================================================ */
+@media (max-width: 1199px) {
+    .premium_features_area {
+        padding: 80px 0;
+    }
+    
+    .premium_feature_box {
+        padding: 25px;
+    }
+    
+    .feature_icon {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .feature_icon i {
+        font-size: 26px;
+    }
+    
+    .premium_feature_box h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .premium_features_area {
+        padding: 70px 0;
+    }
+    
+    .premium_features_inner {
+        margin-top: 40px;
+    }
+    
+    .premium_feature_box {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .feature_icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .feature_icon i {
+        font-size: 24px;
+    }
+    
+    .premium_feature_box h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    
+    .premium_feature_box p {
+        font-size: 13px;
+    }
+    
+    .col-lg-4, .col-md-6 {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .premium_features_area {
+        padding: 60px 0;
+    }
+    
+    .premium_features_area .main_title h2 {
+        font-size: 28px;
+    }
+    
+    .premium_features_area .main_title p {
+        font-size: 14px;
+    }
+    
+    .premium_features_inner {
+        margin-top: 30px;
+    }
+    
+    .premium_feature_box {
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .premium_features_area {
+        padding: 50px 0;
+    }
+    
+    .premium_features_area .main_title h2 {
+        font-size: 24px;
+    }
+    
+    .premium_features_area .main_title p {
+        font-size: 13px;
+    }
+    
+    .premium_features_inner {
+        margin-top: 25px;
+    }
+    
+    .premium_feature_box {
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    
+    .feature_icon_box {
+        margin-bottom: 15px;
+    }
+    
+    .feature_icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    
+    .feature_icon i {
+        font-size: 20px;
+    }
+    
+    .premium_feature_box h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .premium_feature_box p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    /* Disable animations on mobile for better performance */
+    .premium_feature_box:hover {
+        transform: none;
+    }
+    
+    .premium_feature_box:hover .feature_icon:before {
+        animation: none;
+    }
+    
+    .feature_overlay {
+        display: none;
+    }
+}
+/* End Premium Features Responsive Styles
+============================================================================================ */
+
+/* Jurusan Responsive Styles */
+@media (max-width: 991px) {
+    /* Jurusan Responsive Styles */
+    .course_details_area {
+        padding: 70px 0;
+    }
+    
+    .courses_area {
+        padding: 70px 0;
+    }
+    
+    .course-card {
+        margin-bottom: 20px;
+    }
+    
+    .jurusan-info {
+        padding: 20px 15px;
+    }
+    
+    .impress_area {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Jurusan Responsive Styles */
+    .course_details_area, 
+    .courses_area {
+        padding: 60px 0;
+    }
+    
+    .main_title h2 {
+        font-size: 26px;
+    }
+    
+    .main_title p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    .course-card {
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+    
+    .feature-list li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    
+    .jurusan-info h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .impress_area {
+        padding: 60px 0;
+    }
+    
+    .jurusan-overview h3,
+    .jurusan-visi-misi h3,
+    .jurusan-kompetensi h3,
+    .jurusan-prospek h3 {
+        font-size: 20px;
+    }
+    
+    .widget_title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Jurusan Responsive Styles */
+    .course_details_area,
+    .courses_area {
+        padding: 50px 0;
+    }
+    
+    .main_title h2 {
+        font-size: 22px;
+    }
+    
+    .main_title p {
+        font-size: 13px;
+    }
+    
+    .jurusan-info h3 {
+        font-size: 18px;
+    }
+    
+    .feature-list li {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    
+    .impress_area {
+        padding: 50px 0;
+    }
+    
+    .jurusan-overview h3,
+    .jurusan-visi-misi h3,
+    .jurusan-kompetensi h3,
+    .jurusan-prospek h3 {
+        font-size: 18px;
+    }
+    
+    .jurusan-info-item,
+    .kompetensi-item,
+    .prospek-item {
+        padding: 12px;
+    }
+    
+    .icon-box {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    
+    .icon-box i {
+        font-size: 16px;
+    }
+    
+    .widget_title {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    
+    .fasilitas_content, 
+    .other_courses_content {
+        padding: 15px;
+    }
+}
+
+/* Responsive Scroll Top Button
+============================================================================================ */
+@media (max-width: 991px) {
+    .scroll-top-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        bottom: 25px;
+        right: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .scroll-top-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .scroll-top-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .scroll-top-btn:hover {
+        transform: translateY(-3px);
+    }
+
+    .scroll-top-btn:hover i {
+        animation: none;
+    }
+}
+/* End Responsive Scroll Top Button
+============================================================================================ */
+
+/* Responsive Login Page Styles
+============================================================================================ */
+@media (max-width: 1199px) {
+    .login-wrapper {
+        max-width: 90%;
+    }
+
+    .login-brand, .login-form {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .login-wrapper {
+        max-width: 95%;
+    }
+
+    .login-brand-content h2 {
+        font-size: 28px;
+    }
+
+    .login-brand-content p {
+        font-size: 14px;
+    }
+
+    .login-form-header h4 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-page {
+        padding: 20px;
+        background: linear-gradient(135deg, #0072BC, #00A6FF);
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .login-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .login-brand, .login-form {
+        width: 100%;
+    }
+
+    .login-brand {
+        padding: 30px 20px;
+        text-align: center;
+        min-height: auto;
+        order: 1;
+    }
+
+    .login-brand-logo {
+        justify-content: center;
+    }
+
+    .login-brand-logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .brand-text h4 {
+        font-size: 20px;
+    }
+
+    .brand-tagline {
+        font-size: 12px;
+    }
+
+    .login-brand-content {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .login-brand-footer {
+        display: none;
+    }
+
+    .login-form {
+        padding: 25px 20px;
+        order: 2;
+    }
+
+    .login-form-header {
+        text-align: center;
+    }
+
+    .login-form-header h4 {
+        font-size: 20px;
+    }
+
+    .login-form-header h4::after {
+        margin: 10px auto 0;
+    }
+
+    .login-form-header p {
+        font-size: 13px;
+    }
+
+    .login-form-control {
+        font-size: 14px;
+    }
+
+    .login-button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-brand {
+        padding: 20px 15px;
+    }
+
+    .login-form {
+        padding: 20px 15px;
+    }
+
+    .login-brand-logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .brand-text h4 {
+        font-size: 18px;
+    }
+
+    .brand-tagline {
+        font-size: 11px;
+    }
+
+    .login-form-header h4 {
+        font-size: 18px;
+    }
+
+    .login-form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-form-control {
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .login-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .login-form-check {
+        margin-bottom: 15px;
+    }
+
+    .login-checkbox + .login-checkbox-label {
+        font-size: 12px;
+    }
+
+    .login-terms {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+
+    .login-back a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-page {
+        padding: 15px;
+        background: linear-gradient(135deg, #0072BC, #00A6FF);
+    }
+
+    .login-wrapper {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .login-brand {
+        padding: 20px 15px;
+        text-align: center;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .login-brand-header {
+        margin-bottom: 15px;
+    }
+
+    .login-brand-logo {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .login-brand-logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .brand-text {
+        text-align: left;
+    }
+
+    .brand-text h4 {
+        font-size: 16px;
+    }
+
+    .brand-tagline {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    .login-brand-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .login-brand-content h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .login-brand-content h2::after {
+        width: 40px;
+        margin: 10px auto 0;
+    }
+
+    .login-brand-content p {
+        font-size: 13px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+
+    .login-brand-footer {
+        padding-top: 15px;
+    }
+
+    .login-form {
+        padding: 20px 15px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .login-form-header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .login-form-header h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .login-form-header h4::after {
+        width: 30px;
+        height: 2px;
+        margin: 8px auto 0;
+    }
+
+    .login-form-header p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .login-form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-form-group label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .input-icon {
+        left: 10px;
+        font-size: 14px;
+    }
+
+    .input-icon-right {
+        right: 10px;
+        font-size: 14px;
+    }
+
+    .login-form-control {
+        height: 40px;
+        padding: 10px 30px 10px 35px;
+        font-size: 13px;
+    }
+
+    .login-checkbox + .login-checkbox-label {
+        font-size: 12px;
+    }
+
+    .login-checkbox + .login-checkbox-label::before {
+        width: 16px;
+        height: 16px;
+    }
+
+    .login-checkbox:checked + .login-checkbox-label::after {
+        left: 5px;
+        top: 9px;
+    }
+
+    .login-terms {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .login-button {
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .login-back {
+        margin-top: 5px;
+    }
+
+    .login-back a {
+        font-size: 12px;
+    }
+
+    .login-back a i {
+        font-size: 10px;
+    }
+
+    .alert-login {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .alert-login i {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 700px) {
+    .login-brand-content h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .login-brand-content p {
+        font-size: 13px;
+    }
+
+    .login-form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-form-header {
+        margin-bottom: 20px;
+    }
+
+    .login-checkbox + .login-checkbox-label {
+        font-size: 12px;
+    }
+
+    .login-form-check {
+        margin-bottom: 15px;
+    }
+
+    .login-terms {
+        margin-bottom: 15px;
+    }
+
+    .login-button {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 768px) {
+    .login-brand {
+        padding: 15px;
+        min-height: auto;
+    }
+
+    .login-brand-content {
+        padding: 5px 0;
+    }
+
+    .login-form {
+        padding: 15px;
+    }
+
+    .login-form-header p {
+        display: none;
+    }
+
+    .login-form-group {
+        margin-bottom: 10px;
+    }
+
+    .login-form-control {
+        height: 38px;
+    }
+
+    .login-form-check {
+        margin-bottom: 10px;
+    }
+
+    .login-terms {
+        margin-bottom: 10px;
+    }
+
+    .login-button {
+        height: 38px;
+        margin-bottom: 10px;
+    }
+}
+/* End Responsive Login Page Styles
+============================================================================================ */
+
+/* Dropdown Menu Styles for Mobile */
+@media (max-width: 991px) {
+    /* Mobile Menu Container Styles */
+    .header_area .navbar-collapse {
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 70px;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Main Nav Items */
+    .header_area .navbar .nav .nav-item {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin: 0;
+    }
+    
+    .header_area .navbar .nav .nav-item .nav-link {
+        padding: 15px 20px;
+        color: #333;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    
+    /* Remove blue line/border for all nav items */
+    .header_area .navbar .nav .nav-item::after,
+    .header_area .navbar .nav .nav-item::before,
+    .header_area .navbar .nav .nav-item .nav-link::after,
+    .header_area .navbar .nav .nav-item .nav-link::before {
+        display: none !important;
+    }
+    
+    /* Remove blue border on active/hover menu */
+    .header_area .navbar .nav .nav-item.active,
+    .header_area .navbar .nav .nav-item:hover,
+    .header_area .navbar .nav .nav-item.active .nav-link,
+    .header_area .navbar .nav .nav-item:hover .nav-link {
+        border: none !important;
+    }
+    
+    /* Active menu indicator without blue line */
+    .header_area .navbar .nav .nav-item.active > .nav-link {
+        color: #0072bc !important;
+        font-weight: 600;
+        background-color: transparent;
+        border-left: none !important;
+        padding-left: 20px;
+    }
+    
+    /* Jurusan dropdown active indicator */
+    .header_area .navbar .nav .nav-item.dropdown.show > .nav-link {
+        color: #0072bc !important;
+    }
+    
+    /* Dropdown Specific Styles */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu {
+        display: none;
+        background: #f9f9f9;
+        margin: 0;
+        border: none;
+        border-top: none !important;
+        border-bottom: none !important;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown.show .dropdown-menu {
+        display: block;
+        max-height: 500px;
+    }
+    
+    /* Dropdown Items */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item {
+        border-bottom: none;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link {
+        padding: 12px 15px 12px 45px;
+        color: #444;
+        font-size: 14px;
+        line-height: 24px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link i {
+        color: #0072bc;
+        margin-right: 10px;
+        width: 18px;
+        text-align: center;
+    }
+    
+    /* Last dropdown item */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item:last-child .nav-link {
+        border-bottom: none !important;
+    }
+    
+    /* Dropdown Toggle Icon */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-toggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-toggle i {
+        font-size: 14px;
+        transition: transform 0.3s ease;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown.show .dropdown-toggle i {
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width: 991px) {
+    /* Fix horizontal overflow untuk navbar */
+    body {
+        overflow-x: hidden;
+    }
+    
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    /* Optimasi dropdown menu */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        display: none;
+        transition: none;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown.show .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu-jurusan {
+        width: 100% !important;
+    }
+}
+
+/* Perubahan untuk dropdown menu jurusan agar tidak muncul scrollbar horizontal */
+@media (max-width: 991px) {
+    /* Dropdown Menu Mobile Optimization */
+    .header_area .navbar .nav .nav-item.submenu ul {
+        position: relative;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        visibility: visible;
+        right: auto;
+        transform: translateY(0);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header_area .navbar-collapse {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu {
+        background: #f8f9fa;
+    }
+    
+    /* Fix untuk submenu jurusan agar tidak muncul scrollbar horizontal */
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-toggle {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link i {
+        min-width: 20px;
+        text-align: center;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu {
+        background: #f8f9fa;
+    }
+    
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header_area .navbar .nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+
+/* Premium Footer Responsive Styles
+============================================================================================ */
+@media (max-width: 1199px) {
+    .footer-top {
+        padding: 60px 0 40px;
+    }
+    
+    .footer-logo img {
+        width: 55px;
+    }
+    
+    .footer-brand-text h3 {
+        font-size: 18px;
+    }
+    
+    .footer-description p {
+        font-size: 13px;
+    }
+    
+    .footer-contact-info .contact-item p {
+        font-size: 12px;
+    }
+    
+    .footer-widget-title {
+        font-size: 17px;
+    }
+    
+    .footer-links li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-top {
+        padding: 50px 0 30px;
+    }
+    
+    .footer-widget {
+        margin-bottom: 35px;
+    }
+    
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+    
+    .footer-description {
+        margin-bottom: 20px;
+    }
+    
+    .footer-contact-info {
+        margin-bottom: 15px;
+    }
+    
+    .footer-contact-info .contact-item {
+        margin-bottom: 10px;
+    }
+    
+    .footer-contact-info .contact-item i {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .footer-social-media {
+        margin-bottom: 20px;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .copyright, .credits {
+        text-align: center;
+    }
+    
+    .copyright p, .credits p {
+        font-size: 12px;
+    }
+    
+    .credits {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-top {
+        padding: 40px 0 20px;
+    }
+    
+    .footer-brand-container {
+        margin-bottom: 30px;
+    }
+    
+    .footer-logo img {
+        width: 50px;
+    }
+    
+    .footer-brand-text h3 {
+        font-size: 16px;
+    }
+    
+    .footer-brand-text p {
+        font-size: 11px;
+    }
+    
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    
+    .footer-widget-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    
+    .footer-widget-divider {
+        width: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-links li a {
+        font-size: 12px;
+    }
+    
+    .footer-social-media {
+        gap: 8px;
+    }
+    
+    .copyright p, .credits p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    
+    .credits {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-top {
+        padding: 35px 0 15px;
+    }
+    
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    
+    .footer-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer-logo img {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    
+    .footer-brand-text {
+        margin-bottom: 10px;
+    }
+    
+    .footer-contact-info .contact-item i {
+        width: 28px;
+        height: 28px;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    
+    .footer-social-media {
+        justify-content: center;
+    }
+    
+    .copyright p, .credits p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-top {
+        padding: 30px 0 10px;
+    }
+    
+    .footer-brand-container {
+        text-align: center;
+    }
+    
+    .footer-logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-brand-text {
+        text-align: center;
+    }
+    
+    .footer-description {
+        text-align: center;
+    }
+    
+    .footer-contact-info .contact-item {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .footer-contact-info .contact-item i {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    
+    .footer-contact-info .contact-item p {
+        text-align: center;
+    }
+    
+    .footer-widget-title {
+        text-align: center;
+    }
+    
+    .footer-widget-divider {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-links li a {
+        display: block;
+        text-align: center;
+    }
+    
+    .footer-links li a:hover {
+        transform: translateY(-3px);
+        transform: translateX(0);
+    }
+    
+    .social-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+    }
+    
+    .badge-item {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer-bottom {
+        padding: 15px 0;
+    }
+    
+    .copyright p, .credits p {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+/* End Premium Footer Responsive Styles */

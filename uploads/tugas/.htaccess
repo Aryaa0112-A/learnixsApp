@@ -1,0 +1,9 @@
+Options -Indexes
+Order allow,deny
+Deny from all
+
+# Allow access to specific file types
+<FilesMatch "\.(pdf|doc|docx|zip|rar|jpg|jpeg|png)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
