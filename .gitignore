@@ -29,3 +29,32 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # Additional entries to ignore
 assets/tugas/
+
+# Environment files
+application/config/database.php
+application/config/config.php
+.env
+
+# Upload files
+uploads/*
+!uploads/index.html
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node modules (if any)
+node_modules/
+
+# Vendor files (if using Composer)
+vendor/
+
+# Backup files
+*.bak
+*.backup
