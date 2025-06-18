@@ -1,4 +1,4 @@
-# BismillahSidang - Sistem Pembelajaran Online
+# Learnix's - Sistem Pembelajaran Online
 
 Sistem pembelajaran online berbasis CodeIgniter 3 untuk sekolah/madrasah dengan fitur diskusi, tugas, jadwal, dan manajemen kelas.
 
