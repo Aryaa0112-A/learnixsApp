@@ -129,7 +129,7 @@ $db['default'] = array(
 
 Project ini dilisensikan di bawah [MIT License](LICENSE).
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer aryadillah.vercel.app
 
 Dikembangkan dengan ❤️ untuk kemajuan pendidikan Indonesia.
 
